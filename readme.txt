@@ -53,12 +53,12 @@ $data = $form->processed_data;<br />
 
 <h3>API</h3>
 <ul>
-<li>$required | array containing names of required form fields</li>
-<li>$pattern | array containing key/value pairs of field names and their corresponding regular expressions</li>
-<li>$process( $data ) | function that starts the validation process. Must be passed REQUEST data as first parameter</li>
-<li>$processed_data | If all validation checks are passed, this var contains the validated REQUEST data</li> 
-<li>$data( $handler ) | wrapper for get_data( $handler ). Outputs the value entered in the $handler form field</li>
-<li>$hint( $handler ) | wrapper for get_hint( $handler ). Outputs the form field's hint</li>
+<li><b>$required</b> | array containing names of required form fields</li>
+<li><b>$pattern</b> | array containing key/value pairs of field names and their corresponding regular expressions</li>
+<li><b>$process( $data )</b> | function that starts the validation process. Must be passed REQUEST data as first parameter</li>
+<li><b>$processed_data</b> | If all validation checks are passed, this var contains the validated REQUEST data</li> 
+<li><b>$data( $handler )</b> | wrapper for get_data( $handler ). Outputs the value entered in the $handler form field</li>
+<li><b>$hint( $handler )</b> | wrapper for get_hint( $handler ). Outputs the form field's hint</li>
 </ul>
 
 == Changelog ==
