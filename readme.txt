@@ -7,7 +7,7 @@ Stable tag: 0.2a
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Like the spartans at Thermopylae, these 300 lines of code are meant to protect your forms from malicious invaders. 
+Like the Spartans at Thermopylae, these 300 lines of code are meant to protect your forms from malicious invaders. 
 
 == Description ==
 
