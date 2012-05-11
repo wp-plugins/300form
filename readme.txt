@@ -40,25 +40,25 @@ I do not claim this code to be complete yet, as it is an alpha version. Before u
 
 <h3>How to use (example):</h3>
 
-`$form = new form();`<br />
-`$form->required = array( 'form_name', 'form_place' );`<br />
-`$form->pattern = array( 'form_name' => '!^[a-zA-Z]+$!', 'form_place' => '!^[a-zA-Z]+$!' );`<br />
-`$form->process( $_POST );`<br />
-`$data = $form->processed_data;`<br />
+`$form = new form();`
+`$form->required = array( 'form_lastname' );`
+`$form->pattern = array( 'form_lastname' => '!^[a-zA-Z]+$!' );`
+`$form->process( $_POST );`
+`$data = $form->processed_data;`
 
 *your_form_template*<br />
-`<input type="text" name="form_name" placeholder="Your Name" value="<?php $form->data( 'form_name' ); ?>" />`
-`<span style="color:red"><?php $form->hint( 'form_name' ); ?></span>`<br />
+`<input type="text" name="form_lastname" placeholder="Your Name" value="<?php $form->data( 'form_lastname' ); ?>" />`
+`<span style="color:red"><?php $form->hint( 'form_lastname' ); ?></span>`<br />
 */your_form_template*<br />
 
 <h3>API</h3>
 <ul>
-<li><b>`$required`</b> | array containing names of required form fields</li>
-<li><b>`$pattern`</b> | array containing key/value pairs of field names and their corresponding regular expressions</li>
-<li><b>`$process( $data )`</b> | function that starts the validation process. Must be passed REQUEST data as first parameter</li>
-<li><b>`$processed_data`</b> | If all validation checks are passed, this var contains the validated REQUEST data</li> 
-<li><b>`$data( $handler )`</b> | wrapper for get_data( $handler ). Outputs the value entered in the $handler form field</li>
-<li><b>`$hint( $handler )`</b> | wrapper for get_hint( $handler ). Outputs the form field's hint</li>
+<li><b>$required</b> | array containing names of required form fields</li>
+<li><b>$pattern</b> | array containing key/value pairs of field names and their corresponding regular expressions</li>
+<li><b>$process( $data )</b> | function that starts the validation process. Must be passed REQUEST data as first parameter</li>
+<li><b>$processed_data</b> | If all validation checks are passed, this var contains the validated REQUEST data</li> 
+<li><b>$data( $handler )</b> | wrapper for get_data( $handler ). Outputs the value entered in the $handler form field</li>
+<li><b>$hint( $handler )</b> | wrapper for get_hint( $handler ). Outputs the form field's hint</li>
 </ul>
 
 == Changelog ==
