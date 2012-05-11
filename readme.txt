@@ -46,15 +46,15 @@ $form->pattern = array( 'form_name' => '!^[a-zA-Z]$!', 'form_place' => '!^[a-zA-
 $form->process( $_POST );
 $data = $form->processed_data;
 
-<your_form_template>
+*your_form_template*
 <input type="text" name="form_name" placeholder="Your Name" value="<?php $form->data( 'form_name' ); ?>" />
 <span style="color:red"><?php $form->hint( 'form_name' ); ?></span>
-</your_form_template>
+*/your_form_template*
 
 <h3>API</h3>
 <ul>
 <li>$required | array containing names of required form fields</li>
-<li>$pattern | array containing key/value pairs of field names and their corresponing regular expressions</li>
+<li>$pattern | array containing key/value pairs of field names and their corresponding regular expressions</li>
 <li>$process( $data ) | function that starts the validation process. Must be passed REQUEST data as first parameter</li>
 <li>$processed_data | If all validation checks are passed, this var contains the validated REQUEST data</li> 
 <li>$data( $handler ) | wrapper for get_data( $handler ). Outputs the value entered in the $handler form field</li>
