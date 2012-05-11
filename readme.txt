@@ -9,12 +9,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Like the spartans at Thermopylae, these 300 lines of code are meant to protect your forms from malicious invaders. 
 
-I do not claim this code to be complete yet, as it is an alpha version. Before using it in your live site, please do some testing.
-
 == Description ==
 
 Less is more: use this simple plugin to validate your forms. Use regular expressions to match user input against. No need to install huge plugins to validate your forms. Also supports dynamic forms. This plugin is there for validation, to build the actual form, you still have to do the coding.
-
+I do not claim this code to be complete yet, as it is an alpha version. Before using it in your live site, please do some testing.
 
 == Installation ==
 
