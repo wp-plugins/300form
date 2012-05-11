@@ -11,7 +11,16 @@ Like the spartans at Thermopylae, these 300 lines of code are meant to protect y
 
 == Description ==
 
-Less is more: use this simple plugin to validate your forms. Use regular expressions to match user input against. No need to install huge plugins to validate your forms. Also supports dynamic forms. This plugin is there for validation, to build the actual form, you still have to do the coding.
+<h4>Less is more</h4> 
+Use this simple plugin to validate your forms. Use regular expressions to match user input against. No need to install huge plugins to validate your forms. This plugin is there for validation, to build the actual form, you still have to do the coding.
+
+<h4>Features</h4>
+<ul>
+<li>Obligatory fields</li>
+<li>Patterns matching</li>
+<li>Support for dynamic forms</li>
+</ul>
+
 I do not claim this code to be complete yet, as it is an alpha version. Before using it in your live site, please do some testing.
 
 == Installation ==
