@@ -41,13 +41,9 @@ I do not claim this code to be complete yet, as it is an alpha version. Before u
 <h3>How to use (example):</h3>
 
 $form = new form();
-
 $form->required = array( 'form_name', 'form_place' );
-
 $form->pattern = array( 'form_name' => '!^[a-zA-Z]$!', 'form_place' => '!^[a-zA-Z]$!' );
-
 $form->process( $_POST );
-
 $data = $form->processed_data;
 
 <your_form_template>
