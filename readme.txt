@@ -43,3 +43,6 @@ Optional:
 0.2a
 - You can now validate dynamic forms, too. I noticed that some of the most popular form plugins cannot do this, which was one of the reasons to write this code.
 
+== Arbitrary section ==
+
+Please leave feedback, bug reports or comments at https://github.com/paddelboot/300form
