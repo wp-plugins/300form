@@ -48,7 +48,7 @@ I do not claim this code to be complete yet, as it is an alpha version. Before u
 
 *your_form_template*<br />
 `<input type="text" name="form_name" placeholder="Your Name" value="<?php $form->data( 'form_name' ); ?>" />`
-`<span style="color:red"><?php $form->hint( 'form_name' ); ?></span>`
+`<span style="color:red"><?php $form->hint( 'form_name' ); ?></span>`<br />
 */your_form_template*<br />
 
 <h3>API</h3>
