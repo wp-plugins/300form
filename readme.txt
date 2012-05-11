@@ -40,16 +40,16 @@ I do not claim this code to be complete yet, as it is an alpha version. Before u
 
 <h3>How to use (example):</h3>
 
-$form = new form();
-$form->required = array( 'form_name', 'form_place' );
-$form->pattern = array( 'form_name' => '!^[a-zA-Z]+$!', 'form_place' => '!^[a-zA-Z]+$!' );
-$form->process( $_POST );
-$data = $form->processed_data;
+$form = new form();<br />
+$form->required = array( 'form_name', 'form_place' );<br />
+$form->pattern = array( 'form_name' => '!^[a-zA-Z]+$!', 'form_place' => '!^[a-zA-Z]+$!' );<br />
+$form->process( $_POST );<br />
+$data = $form->processed_data;<br />
 
-*your_form_template*
+*your_form_template*<br />
 <input type="text" name="form_name" placeholder="Your Name" value="<?php $form->data( 'form_name' ); ?>" />
 <span style="color:red"><?php $form->hint( 'form_name' ); ?></span>
-*/your_form_template*
+*/your_form_template*<br />
 
 <h3>API</h3>
 <ul>
