@@ -19,6 +19,7 @@ Use this simple plugin to validate your forms. Use regular expressions to match 
 <li>Obligatory fields</li>
 <li>Patterns matching</li>
 <li>Support for dynamic forms</li>
+<li>Lightweight, adaptable code</li>
 </ul>
 
 I do not claim this code to be complete yet, as it is an alpha version. Before using it in your live site, please do some testing.
